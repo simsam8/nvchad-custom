@@ -12,6 +12,7 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+
 -- Without the loop, you would have to manually set up each LSP 
 -- 
 -- lspconfig.html.setup {
