@@ -1,4 +1,7 @@
 
+vim.g.mkdp_browser = "vivaldi"
+vim.g.lua_snippets_path = vim.fn.stdpath "config" .. "/lua/custom/lua_snippets"
+
 -- clipboard
 if vim.fn.has("wsl") == 1 then
     if vim.fn.executable("wl-copy") == 0 then
