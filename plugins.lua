@@ -65,7 +65,13 @@ local plugins = {
     "folke/trouble.nvim",
     dependencies = { "nvim-tree/nvim-web-devicons" },
     -- opts = {},
-  }
+  },
+
+  { "iamcco/markdown-preview.nvim", build = "cd app && yarn install; yarn add tslib", init = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, },
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy=false,
+  },
 
 }
 
