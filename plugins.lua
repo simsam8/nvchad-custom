@@ -10,7 +10,9 @@ local plugins = {
 
         -- 
         "markdown_inline",
+        "markdown",
         "python",
+        "bash",
 
         -- web dev 
         "html",
