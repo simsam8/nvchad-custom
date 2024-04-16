@@ -1,3 +1,5 @@
+local overrides = require("custom.configs.overrides")
+
 -- In order to modify the `lspconfig` configuration:
 local plugins = {
 {
@@ -73,6 +75,12 @@ local plugins = {
   {
     "christoomey/vim-tmux-navigator",
     lazy=false,
+  },
+
+  -- Overrides 
+  {
+    "nvim-tree/nvim-tree.lua",
+    opts = overrides.nvimtree,
   },
 
 }

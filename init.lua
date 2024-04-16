@@ -1,6 +1,7 @@
 
 vim.g.mkdp_browser = "vivaldi"
 vim.g.lua_snippets_path = vim.fn.stdpath "config" .. "/lua/custom/lua_snippets"
+vim.g.nvimtree_side = "right"
 
 -- clipboard
 if vim.fn.has("wsl") == 1 then
